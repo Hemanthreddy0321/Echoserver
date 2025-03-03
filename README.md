@@ -20,6 +20,7 @@ Implementation using Python code
 Testing the server and client 
 
 ## PROGRAM:
+"
 SERVER:
 
 import socket
@@ -37,6 +38,7 @@ HOST ,PORT ='127.0.0.1',65432
 with socket.create_connection((HOST, PORT)) as s:
     s.sendall(b'Hemanth A, 212223220035')
     print(f'Received:{s.recv(1024)!r}')
+    "
 
 ## OUTPUT:
 SERVER:
